@@ -10,4 +10,4 @@ This repository will be used for the purpose of tracking my studies and playing 
   
 I also hope this repository helps others should they come across to it.
 
-perceverance-in-coding
+perseverance-in-coding
