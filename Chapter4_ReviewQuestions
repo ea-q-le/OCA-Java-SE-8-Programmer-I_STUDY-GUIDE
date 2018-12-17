@@ -377,7 +377,7 @@
      B. ucrcr
      C. u ucrcr
      D. u u curcur
-     E. u u ucrcr
+~     E. u u ucrcr
      F. ur ur urc
      G. The code does not compile
      
@@ -397,7 +397,7 @@
       13:     order = new Order();
       14:     System.out.println(order.value);
       15:   } }
-     A. tacb
+~     A. tacb
      B. tacf
      C. tacbf
      D. tacfb
@@ -419,10 +419,10 @@
         }
       }
      A. value1 = "d"; instead of // CODE SNIPPET 1
-     B. value2 = "e"; instead of // CODE SNIPPET 1
-     C. value3 = "f"; instead of // CODE SNIPPET 1
+~     B. value2 = "e"; instead of // CODE SNIPPET 1
+~     C. value3 = "f"; instead of // CODE SNIPPET 1
      D. value1 = "g"; instead of // CODE SNIPPET 2
-     E. value2 = "h"; instead of // CODE SNIPPET 2
+~     E. value2 = "h"; instead of // CODE SNIPPET 2
      F. value3 = "i"; instead of // CODE SNIPPET 2
      
  Q25: Which of the following are true about the following code? (Choose all that apply)
@@ -447,13 +447,13 @@
           new Create(1000L);
         }
       }
-     A. The code prints out 2 4
+~     A. The code prints out 2 4
      B. The code prints out 3 4
      C. The code prints out 4 2
      D. The code prints out 4 4
      E. The code prints 3 4 if you remove the constructor Create(int num)
      F. The code prints 4 4 if you remove the constructor Create(int num)
-     G. The code prints 5 4 if you remove the constructor Create(int num)
+~     G. The code prints 5 4 if you remove the constructor Create(int num)
      
  Q26: What is the result of the following class?
       1: import java.util.function.*;
@@ -471,7 +471,7 @@
       13: } }
      A. match
      B. not match
-     C. Compiler error on line 8
+~     C. Compiler error on line 8
      D. Compiler error on line 10
      E. Compiler error on line 11
      F. A runtime exception is thrown
@@ -495,7 +495,7 @@
      A. ok
      B. too high
      C. Compiler error on line 7
-     D. Compiler error on line 10
+~     D. Compiler error on line 10
      E. Compiler error on a different line
      F. A runtime exception is thrown
      
@@ -504,10 +504,10 @@
       list.removeIf(____________);
      A. s -> s.isEmpty();
      B. s -> {s.isEmpty()}
-     C. s -> {s.isEmpty();}
+~     C. s -> {s.isEmpty();}
      D. s -> {return s.isEmpty();}
-     E. String s -> s.isEmpty()
-     F. (String s) -> s.isEmpty()
+~     E. String s -> s.isEmpty()
+~     F. (String s) -> s.isEmpty()
      
  Q29: Which lambda can replace the MySecret class to return the same value?
       (Choose all that apply)
@@ -520,9 +520,9 @@
           return "Poof";
         }
       }
-     A. caller((e) -> "Poof");
+~     A. caller((e) -> "Poof");
      B. caller((e) -> {"Poof"});
      C. caller((e) -> { String e = ""; "Poof" });
-     D. caller((e) -> { String e = ""; return "Poof"; });
+~     D. caller((e) -> { String e = ""; return "Poof"; });
      E. caller((e) -> { String e = ""; return "Poof" });
      F. caller((e) -> { String f = ""; return "Poof"; });
